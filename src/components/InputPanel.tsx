@@ -10,10 +10,10 @@ interface InputPanelProps {
 const SLIDERS: SliderConfig[] = [
   { key: 'temperatura', label: 'Temperatura', min: 20, max: 35, step: 0.5, unit: '°C' },
   { key: 'ph', label: 'pH', min: 6.5, max: 8, step: 0.1, unit: 'pH' },
-  { key: 'ley_mineral', label: 'Ley de mineral', min: 0.5, max: 1.5, step: 0.01, unit: '%' },
-  { key: 'caudal', label: 'Caudal de pulpa', min: 220, max: 420, step: 5, unit: 'm³/h' },
-  { key: 'turbidez', label: 'Turbidez', min: 5, max: 40, step: 1, unit: 'NTU' },
-  { key: 'colector_actual', label: 'Colector actual', min: 30, max: 65, step: 0.5, unit: 'L/h' },
+  { key: 'ley_mineral', label: 'Ley de mineral', min: 0.7, max: 1.0, step: 0.01, unit: '%' },
+  { key: 'caudal', label: 'Caudal de pulpa', min: 400, max: 600, step: 5, unit: 'm³/h' },
+  { key: 'turbidez', label: 'Turbidez', min: 20, max: 60, step: 1, unit: 'NTU' },
+  { key: 'colector_actual', label: 'Colector actual', min: 45, max: 55, step: 0.5, unit: 'L/h' },
 ];
 
 export function InputPanel({ values, onChange }: InputPanelProps) {

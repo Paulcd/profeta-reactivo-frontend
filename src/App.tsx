@@ -11,12 +11,12 @@ import type { InputValues } from './types';
 import type { ModeloStatus } from './types/api';
 
 const DEFAULT_INPUTS: InputValues = {
-  temperatura: 28,
-  ph: 7.2,
-  ley_mineral: 0.85,
-  caudal: 320,
-  turbidez: 12,
-  colector_actual: 45,
+  temperatura: 28.5,
+  ph: 7.15,
+  ley_mineral: 0.88,
+  caudal: 505,
+  turbidez: 39,
+  colector_actual: 52,
 };
 
 export default function App() {
