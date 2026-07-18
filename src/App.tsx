@@ -69,7 +69,7 @@ export default function App() {
       </main>
 
       <footer className="mx-auto max-w-container px-6 py-8 mono text-xs text-text-muted">
-        Profeta de Reactivos · React + TypeScript + FastAPI · Es una recomendación, no
+        Yakumind · React + TypeScript + FastAPI · Es una recomendación, no
         automatización forzada.
       </footer>
     </div>

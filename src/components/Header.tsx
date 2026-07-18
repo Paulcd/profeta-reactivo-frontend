@@ -17,7 +17,7 @@ export function Header({ status }: HeaderProps) {
           </span>
           <div>
             <h1 className="text-lg font-bold tracking-tight text-text-main">
-              Profeta de Reactivos
+              Yakumind
             </h1>
             <p className="text-xs text-text-muted">
               Optimización IA para Minería · Cerro Verde, Arequipa
