@@ -1,0 +1,14 @@
+/* Paleta Peruana Minimalista — Profeta de Reactivos */
+:root {
+  --color-bg: #0f1419;        /* casi negro, no blanco puro */
+  --color-surface: #161c23;   /* card, ligeramente más claro que el fondo */
+  --color-primary: #d4a574;   /* ocre peruano */
+  --color-accent: #2e8b9e;    /* azul pacífico */
+  --color-success: #7cb342;   /* verde minería responsable */
+  --color-text: #e8e8e8;      /* gris claro */
+  --color-text-muted: #8a97a3;
+  --color-border: #3a3a3a;    /* gris oscuro */
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
